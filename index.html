@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <nav id="content">
+    <!--<nav id="content">
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,29 +23,64 @@
           </div>
         </div>
       </nav>
-    </nav>
+    </nav>-->
 
 
     <div class="table">
       <table>
         <tr>
-          <td id="col-1-1"></td>
+          <td id="col-1-1">
+          </td>
           <td id="col-1-2">
-            <nav class="about_me">
+            <div class="row contact_top">
+              <a id="fb" href="https://www.facebook.com/rajat.saxena.90410"><img src="images/circlefb-logo.png" width=20px height=20px/></a>
+              <a id="github" href="https://github.com/Rajat26599"><img src="images/github-logo.png" width=20px height=20px/></a>
+              <a id="linkedin" href="https://www.linkedin.com/in/rajat-saxena-54509a15b/"><img src="images/linkedin-logo.png" width=18px height=18px/></a>
+              <a id="quora" href="https://www.quora.com/profile/Rajat-Saxena-190"><img src="images/quora-logo.png" width=20px height=20px/></a>
+
+            </div>
+            <div class="row navbar bg-light">
+              <button type="button" class="btn btn-light" id="firstbutton"><a href="skills.html">SKILLS & EXPOSURE</a></button>
+              <button type="button" class="btn btn-light" id="secondbutton"><a href="projects.html">PROJECTS</a></button>
+              <button type="button" class="btn btn-light" id="thirdbutton"><a href="https://drive.google.com/file/d/1iuV3z54lLjck9CynkKSc4qhCKKOO8wq5/view?usp=sharing" target="_blank">CV</a></button>
+              <button type="button" class="btn btn-light" id="thirdbutton"><a href="https://drive.google.com/file/d/1sWlEfWp7b6KKT0M3RCMIMSLI0JxOBl8p/view?usp=sharing" target="_blank">RESUME</a></button>
+            </div>
+            <div class="about_me">
               <P id="name">RAJAT SAXENA</p><br>
               <h2>About me</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </nav>
+            </div>
           </td>
         </tr>
         <tr id="row-2">
           <td></td>
           <td id="col-2-2">
-            <h1>Contact me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Copyright (c) 2018 Copyright Holder All Rights Reserved.</p>
-          </td>
+            <h1>CONTACT ME</h1><br>
+
+            <form action="mailto:saxena1975sanjeev@gmail.com" method="post" enctype="text/plain">
+
+              <p id='iden'>NAME :</p>
+              <input id="inp" type="text" name="name"><br>
+
+              <p id='iden'>E-MAIL :</p>
+              <input id="inp" type="email" name="mail"><br>
+
+              <p id='iden'>COMMENT :</p>
+              <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+              <br><br>
+              <input id="inp" type="submit" value="Send Mail">
+              <input id="inp" type="reset" value="Reset"><br><br><br>
+            </form>
+
+            <div class="row">
+              <a id="fbdown" href="https://www.facebook.com/rajat.saxena.90410"><img src="images/circlefb-logo.png" width=60px height=60px/></a>
+              <a id="githubdown" href="https://github.com/Rajat26599"><img src="images/github-logo.png" width=60px height=60px/></a>
+              <a id="linkedindown" href="https://www.linkedin.com/in/rajat-saxena-54509a15b/"><img src="images/linkedin-logo.png" width=48px height=48px/></a>
+              <a id="quoradown" href="https://www.quora.com/profile/Rajat-Saxena-190"><img src="images/quora-logo.png" width=60px height=60px/></a>
+
+            </div>
+
         </tr>
       </table>
     </div>
