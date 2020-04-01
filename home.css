@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/portfolio_bg.jpg");
+  background-image: url("images/portfolio_bg.jpg");
   background-size: 1400px 680px;
   background-size: cover;
   background-attachment: fixed;
